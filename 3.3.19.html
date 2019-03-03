@@ -5,45 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>my first html web</title>
-    <style>
     
-        h2{
-            color: crimson;
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <header>
-            <h1 style="color:blue; font-weight:500;background-color: coral"> hello</h1>
-            <h2>world</h2>
-            <h3>!</h3>
-            <h4>what's</h4>
-            <h5>up</h5>
-            <h6>?</h6>
+            <h1 class="header">welcome to my website</h1>
+            
     </header>
     
     <section>
-    
+            
         <form>
-            <label for="name">Name:</label>
+            <label class="text" for="name">Name:</label>
             <input type="text" name="name" id="name" title="Your full name"> 
 
-            <label for="age">Age:</label>
+            <label class="text" for="age">Age:</label>
             <input type="number" age="age" id="age" placeholder="Age" min="3" max="99">
 
-            <label for="date">Date:</label>
+            <label class="text" for="date">Date:</label>
             <input type="date" date="date" id="date">
             
-            <button type="submit">submit</button>
+            <p><button type="submit">submit</button></p> 
 
         </form>
     </section>
 
     <footer>
-        <p>You need to fill all the boxes before you submit</p> 
+        
+        <p id="error">You need to fill all the boxes before you submit</p> 
     </footer>
 
 
